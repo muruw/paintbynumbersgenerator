@@ -106,7 +106,10 @@ The CLI version is useful if you want to automate the process into your own scri
 
 ## Running locally
 
-I used VSCode, which has built in typescript support. To debug it uses a tiny webserver to host the files on localhost. 
+Use node version 12.7.0
+1. install nvm (set source: source ~/.nvm/nvm.sh)
+2. nvm install 12.7.0
+3. nvm use 12.7.0
 
 To run do `npm install` to restore packages and then `npm start` to start the webserver
 
